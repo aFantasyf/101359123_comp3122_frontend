@@ -1,0 +1,55 @@
+/* Center content both vertically and horizontally */
+.employee-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #D5D5D5; /* Light gray background */
+  }
+  
+  /* Box that contains the employee list */
+  .employee-box {
+    background-color: #9099A2;
+    border: 2px solid #6D7793; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px;
+    width: 60%; /* Adjust width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Style for individual employee items */
+  .employee-item {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  /* Style the buttons for a nicer look */
+  button {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Button styles */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Add Employee button styling */
+  button[type="button"] {
+    display: block;
+    margin-top: 20px;
+    width: 50%;
+    background-color: #6D7793;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
